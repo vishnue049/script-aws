@@ -1,0 +1,8 @@
+-rw-r--r--  1 vishnu  staff    48B Feb 22 12:42 README.md
+-rwx------  1 vishnu  staff   698B May 24 12:26 arthmetic.sh
+-rwx------  1 vishnu  staff   317B Feb 21 12:40 awsallregions.sh
+-rw-r--r--  1 vishnu  staff     0B May 24 14:38 file.txt
+-rwx------  1 vishnu  staff   463B May 24 14:37 findfiles.sh
+-rwx------@ 1 vishnu  staff   1.3K Feb 21 12:21 shell.sh
+-rwx------  1 vishnu  staff   667B May 22 09:29 specific-region.sh
+-rwx------  1 vishnu  staff   226B May 23 10:24 test.sh
