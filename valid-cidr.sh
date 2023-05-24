@@ -5,10 +5,9 @@ for LIST in $REGIONS; do
     for VPC in $VPCID
     do
     CIDR=$(aws ec2 describe-vpcs ---vpc-ids $VPC --region $REGION | jq ".Vpcs[].CidrBlock" | tr -d '"')
-    if [ $CIDR=='10.1.0.0/16' -o $CIDR=='172.16.0.0/16' ]; then
-        echo "$VPCID in region $LIST is in valid range"
+    if [ $CIDR='10.1.0.0/16' || $CIDR='172.16.0.0/16' ]; then
+        echo "$VPC in region $LIST is in valid range"
     else
         echo "Invalid range"
     fi
-    echo"--------------------"
 done
