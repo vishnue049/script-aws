@@ -19,4 +19,4 @@ for I in {1..3}; do
     --nsg "" --custom-data ./clouddrive/k8sb12.txt
 done
 
-# watch ls
+watch ls
