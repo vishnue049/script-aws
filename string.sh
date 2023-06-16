@@ -19,4 +19,6 @@ else
 fi
 
 
-
+#!/bin/bash
+FOLDERNAME='temp'
+FILENAME='tempfile'
